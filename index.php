@@ -1,4 +1,8 @@
-
+<?php
+$v1=$_GET['inputvalor1'];
+$v2=$_GET['inputvalor2'];
+$total=$v1+$v2;
+?>
 <!DOCTYPE html>
 <html>
    <head>
@@ -12,21 +16,21 @@
   <fieldset>
     <legend><b>FORMULÁRIO</b></legend>
     <div class="form-group">
-      <label for="inputvalor1" class="col-lg-1 control-label">Valor 1</label>
+      <label for="valor1" class="col-lg-1 control-label">Valor 1</label>
       <div class="col-lg-5">
-        <input type="text" class="form-control" id="inputvalor1" placeholder="Digite um número">
+        <input type="text" class="form-control" name="inputvalor1" id="inputvalor1" placeholder="Digite um número">
       </div>
       </div>
 
       <div class="form-group">
-      <label for="inputvalor2" class="col-lg-1 control-label">Valor 2</label>
+      <label for="valor2" class="col-lg-1 control-label">Valor 2</label>
       <div class="col-lg-5">
-        <input type="text" class="form-control" id="inputvalor2" placeholder="Digite um número">
+        <input type="text" class="form-control" name="inputvalor" id="inputvalor2" placeholder="Digite um número">
       </div>
       </div>
 
       <div class="form-group">
-      <label for="inputresult" class="col-lg-1 control-label">Resultado</label>
+      <label for="inputresult" class="col-lg-1 control-label"><?=$total;?></label>
       <div class="col-lg-5">
         <input type="text" class="form-control" id="inputresult">
       </div>
@@ -40,6 +44,5 @@
       
     </fieldset>
     </form>
-   
 </body>
 </html>
