@@ -21,18 +21,15 @@ $total=$v1+$v2;
         <input type="text" class="form-control" name="inputvalor1" id="inputvalor1" placeholder="Digite um número">
       </div>
       </div>
-
-      <div class="form-group">
-      <label for="valor2" class="col-lg-1 control-label">Valor 2</label>
+     <label for="valor2" class="col-lg-1 control-label">Valor 2</label>
       <div class="col-lg-5">
-        <input type="text" class="form-control" name="inputvalor" id="inputvalor2" placeholder="Digite um número">
+      <input type="text" class="form-control" name="inputvalor2" id="inputvalor2" placeholder="Digite um número">
       </div>
       </div>
 
       <div class="form-group">
-      <label for="inputresult" class="col-lg-1 control-label"><?=$total;?></label>
+      <label for="inputresult" class="col-lg-1 control-label">Resultado</label> <?=$total;?>
       <div class="col-lg-5">
-        <input type="text" class="form-control" id="inputresult">
       </div>
       </div>
 
