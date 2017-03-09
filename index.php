@@ -7,15 +7,15 @@
         <link href="css/style.css" rel="stylesheet">
   </head>
 <body>
-  <div id="area">
+    <div id="area">
     <form id="formulario" autocomplete="off">
       <fieldset>
         <legend>Formulário</legend>
-        <label>Numero1:</label><input class="campo_1" type="number"><br>
-        <label>Numero2:</label><input class="campo_2" type="number"><br>
+        <label>Campo1:</label><input class="campo_numero" type="number"><br>
+        <label>Campo2:</label><input class="campo_email" type="password"><br>
         <input class="btn_submit" type="submit" value="Enviar">
       </fieldset>
     </form>
-  </div>
+    </div>
 </body>
 </html>
